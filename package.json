@@ -1,0 +1,27 @@
+{
+  "name": "cli-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/weather.js",
+  "bin": {
+    "weather": "src/weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint \"{src,apps,libs,test}/**/*.js\" --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
